@@ -68,13 +68,16 @@ function addTaskBtnHandler() {
   const tdDeleteBtb = document.createElement("td");
   const deleteBtb = document.createElement("button");
   deleteBtb.textContent = "DELETE";
-  deleteBtb.addEventListener("click", deleteTaskBtnHandler);
+  //deleteBtb.addEventListener("click", deleteTaskBtnHandler);
   tdDeleteBtb.appendChild(deleteBtb);
 
   tr.appendChild(tdTask);
   tr.appendChild(tdStatus);
   tr.appendChild(tdDeleteBtb);
+
   taskDisplay.appendChild(tr);
+
+  taskDisplay.addEventListener("click", deleteTaskBtnHandler);
 
   userInput.value = "";
   userInput.focus();
