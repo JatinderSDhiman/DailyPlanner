@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+header {
+  margin: 1px auto;
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+  margin: 1px;
+}
+
+main {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease, visibility 1s ease;
+}
+
+.date-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#date {
+  color: #493d9e;
+  font-size: 20px;
+  font-weight: bold;
+}
+.top-section {
+  margin: 25px auto;
+  padding: 5px;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+#addTaskInput {
+  width: 65%;
+  height: 30px;
+  font-size: 18px;
+  padding-left: 15px;
+  font-style: italic;
+  border-radius: 20px;
+  border: 0.75px solid black;
+}
+#addTaskBtn {
+  width: 25%;
+  color: white;
+  background-color: #493d9e;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  font-style: italic;
+}
+#addTaskBtn:hover {
+  color: #493d9e;
+  background-color: white;
+  border: 1px solid #493d9e;
+  font-style: italic;
+}
+table {
+  width: 90%;
+  table-layout: fixed;
+  margin: 25px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+tbody {
+  margin-bottom: 5px;
+}
+th {
+  width: 30%;
+  font-size: 30px;
+  padding-top: 7px;
+  text-align: center;
+  vertical-align: top;
+}
+small {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+}
+td {
+  width: 30%;
+  height: 40px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+td > button {
+  width: 150px;
+  background-color: white;
+  color: crimson;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  font-style: italic;
+  border: 1px solid crimson;
+}
+td > button:hover {
+  color: white;
+  background-color: crimson;
+  border: 1px solid white;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  height: 40px;
+  z-index: 100;
+  background-color: black;
+  color: white;
+}
+
+.animated-text {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.animated-text span {
+  display: inline-block;
+  animation: fadeIn 4s linear infinite;
+}
+/* Keyframes*/
+@keyframes fadeIn {
+  0% {
+    color: black;
+  }
+  25% {
+    color: crimson;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: black;
+  }
+}
+/* Adjust animation delay for each letter for staggered effect */
+.animated-text span:nth-child(1) {
+  animation-delay: 0s;
+}
+.animated-text span:nth-child(2) {
+  animation-delay: 1s;
+}
+.animated-text span:nth-child(3) {
+  animation-delay: 1.5s;
+}
+.animated-text span:nth-child(4) {
+  animation-delay: 2s;
+}
+.animated-text span:nth-child(5) {
+  animation-delay: 2.5s;
+}
+.animated-text span:nth-child(6) {
+  animation-delay: 3s;
+}
+.animated-text span:nth-child(7) {
+  animation-delay: 3.5s;
+}
+.animated-text span:nth-child(8) {
+  animation-delay: 4s;
+}
+.animated-text span:nth-child(9) {
+  animation-delay: 4.5s;
+}
+.animated-text span:nth-child(10) {
+  animation-delay: 5s;
+}
+.animated-text span:nth-child(11) {
+  animation-delay: 5.5s;
+}
+.animated-text span:nth-child(12) {
+  animation-delay: 6s;
+}
+.animated-text span:nth-child(13) {
+  animation-delay: 6.5s;
+}
+.animated-text span:nth-child(14) {
+  animation-delay: 7s;
+}
+.animated-text span:nth-child(15) {
+  animation-delay: 7.5s;
+}
+.animated-text span:nth-child(16) {
+  animation-delay: 8s;
+}
+.animated-text span:nth-child(17) {
+  animation-delay: 8.5s;
+}
+.animated-text span:nth-child(18) {
+  animation-delay: 9s;
+}
+.animated-text span:nth-child(19) {
+  animation-delay: 9.5s;
+}

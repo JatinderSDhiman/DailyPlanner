@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lan="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <title>DAILY PLANNER</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>DAILY PLANNER</h1>
+      <section class="animated-text">
+        <span>P</span><span>L</span><span>A</span><span>N</span> <span>Y</span
+        ><span>O</span><span>U</span><span>R</span> <span>D</span><span>A</span
+        ><span>Y</span>, <span>Y</span><span>O</span><span>U</span
+        ><span>R</span> <span>W</span><span>A</span><span>Y</span>
+      </section>
+      <p id="date"></p>
+    </header>
+
+    <main class="main-container">
+      <section class="top-section">
+        <input id="addTaskInput" type="text" placeholder="Add a task..." />
+        <button id="addTaskBtn">ADD TASK</button>
+      </section>
+
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>TASK</th>
+              <th>STATUS<br /><small>(click to update)</small></th>
+              <th>ACTIONS</th>
+            </tr>
+          </thead>
+
+          <tbody id="taskDisplay"></tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Jatinder Singh Dhiman. All rights reserved.</p>
+      <script src="./script.js"></script>
+    </footer>
+  </body>
+</html>
